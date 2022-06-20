@@ -2,7 +2,7 @@
 
 <div align="center">
   <a href="https://github.com/franckferman/cyber_threat_intelligence-elements-synthesis">
-    <img src="https://raw.githubusercontent.com/franckferman/cyber_threat_intelligence-elements-synthesis/main/img/cti.png" alt="Cyber threat intelligence" width="200" height="200">
+    <img src="https://raw.githubusercontent.com/franckferman/cyber_threat_intelligence-elements-synthesis/main/img/cti.png" alt="CTI-Cyber_threat_intelligence" width="200" height="200">
   </a>
 
 <h3 align="center">Cyber threat intelligence</h3>
