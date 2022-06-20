@@ -18,9 +18,10 @@
   <summary>Table of Contents</summary>
   <ol>
 	  <li><a href="#1-introduction">Introduction</a></li>
-    <li><a href="#2-le_principe_du_cti">Une communauté grandissante d'experts</a></li>
-      <li><a href="#3-types_de_cti">Types de Cyber Threat Intelligence</a></li>
-      <li><a href="#4-iocs">Les indicateurs de compromissions</a></li>
+    <li><a href="#2-le-principe-du-cti-cyber-threat-intelligence">Une communauté grandissante d'experts</a></li>
+      <li><a href="#3-types-de-cyber-threat-intelligence">Types de Cyber Threat Intelligence</a></li>
+      <li><a href="#4-les-indicateurs-de-compromissions">Les indicateurs de compromissions</a></li>
+	  <li><a href="#5-mieux-gérer-ses-indicateurs-de-compromissions">Les indicateurs de compromissions</a></li>
   </ol>
 </details>
 
@@ -127,7 +128,7 @@ Est-ce que votre EDR remonte des signatures de type SHA-1 ? Si oui, il peut, dan
 </p></br></br>
 
 <div align="center">
-<h2>Mieux gérer ses indicateurs de compromissions</h2>
+<h2>5. Mieux gérer ses indicateurs de compromissions</h2>
 
 <p>Pour mieux gérer ses données (indicateurs), il faut également être capables de les classifier.</br>
 
