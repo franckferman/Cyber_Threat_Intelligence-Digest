@@ -18,7 +18,7 @@
   <summary>Table of Contents</summary>
   <ol>
 	  <li><a href="#1-introduction">Introduction</a></li>
-    <li><a href="#2-le-principe-du-cti-cyber-threat-intelligence">Une communauté grandissante d'experts</a></li>
+    <li><a href="#2-le-principe-du-cti-cyber-threat-intelligence">Le principe du CTI (Cyber Threat Intelligence)</a></li>
       <li><a href="#3-types-de-cyber-threat-intelligence">Types de Cyber Threat Intelligence</a></li>
       <li><a href="#4-les-indicateurs-de-compromissions">Les indicateurs de compromissions</a></li>
 	  <li><a href="#5-mieux-gérer-ses-indicateurs-de-compromissions">Mieux gérer ses indicateurs de compromissions</a></li>
