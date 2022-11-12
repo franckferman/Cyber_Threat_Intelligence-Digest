@@ -38,13 +38,26 @@ Mais depuis l'évolution et la prolifération des menaces Cyber (déstabilisatio
 <br>
 
 <div align="center">
-<h2>2. Le principe de la Cyber Threat Intelligence (CTI)</h2>
+<h2>2. Le principe de la Cyber Threat Intelligence (CTI) et ses moyens</h2>
 </div>
 
-aaaaaa
+La CTI vise à collecter et à analyser les informations existant sur une menace ou un adversaire, notamment en dressant un portrait des attaquants ou en mettant en exergue des tendances (secteurs d'activités touchés, méthode utilisée, etc.), ce qui permettra de mieux identifier et analyser les cybermenaces.
+
+La CTI inclut le « renseignement d'origine sources ouvertes » (OSINT), le renseignement à travers des sources privés (notamment sur des groupes Telegram, des sections privées de forums, des groupes Discord...), le renseignement humain et l'ingénierie sociale (Social Engineering), le renseignement technique, les fichiers journaux (logs), les données acquises « judiciairement » ou le renseignement sur le trafic Internet (à l'échelle du fournisseur) et les données dérivées du Dark Web.
+
+Plus précisément, la CTI permet de définir les indicateurs d'attaque, les techniques utilisées, les groupes d'attaquants et les outils utilisés. Ce « profiling » permet de se défendre et anticiper au mieux les différents incidents, en permettant une détection aux prémices d'une attaque d'envergure (APT). 
+
+En effet, la CTI vise également à se préparer aux attaques en amont, en récupérant le plus d'informations possible sur ces attaquants. Couplé à cela, la mise en œuvre de mesures de prévention, de détection et de réponse par le biais des connaissances acquises.
+
+Ces deux concepts (l'association de la collecte et la reconnaissance, avec la mise en place de mesures préventives de détection et de réponse) permettent d'obtenir une stratégie de CTI.
+
+La CTI pourrait être résumée par le fait qu'elle vise à mieux connaître les menaces pour mieux se défendre et anticiper.
+
+<br>
 
 <div align="center">
-<h2>3. Types de Cyber Threat Intelligence</h2>
+<h2>3. Les différents types de la Cyber Threat Tntelligence</h2>
+</div>
 
 <p>Il existe plusieurs types (catégories) de CTI.</br>
 
