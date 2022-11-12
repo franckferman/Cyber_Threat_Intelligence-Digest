@@ -1,56 +1,45 @@
-# Cyber_Threat_Intelligence-Digest
-
 <div id="top"></div>
 
 <div align="center">
-  <a href="https://github.com/franckferman/cyber_threat_intelligence-elements-synthesis">
-    <img src="https://raw.githubusercontent.com/franckferman/cyber_threat_intelligence-elements-synthesis/main/img/cti.png" alt="CTI-Cyber_threat_intelligence" width="200" height="200">
+  <a href="https://github.com/franckferman/Cyber_Threat_Intelligence-Digest">
+    <img src="https://raw.githubusercontent.com/franckferman/Cyber_Threat_Intelligence-Digest/main/img/logo.png" alt="Cyber_Threat_Intelligence-Digest" width="200" height="200">
   </a>
 
-<h3 align="center">Cyber threat intelligence</h3>
+<h3 align="center">Cyber Threat Intelligence Digest</h3>
 
   <p align="center">
-    Quelques éléments concernant la CTI et ses outils décrits et synthétisés.    
+  Introduction à la Cyber Threat Tntelligence.  
   <br/>
   <br/>
   </p>
 </div>
 
 <details>
-  <summary>Table of Contents</summary>
+  <summary>Table des matières</summary>
   <ol>
-	  <li><a href="#1-introduction">Introduction</a></li>
-    <li><a href="#2-le-principe-du-cti-cyber-threat-intelligence">Le principe du CTI (Cyber Threat Intelligence)</a></li>
+    <li><a href="#1-introduction">Préambule</a></li>
+    <li><a href="#2-principes">Les principes de la CTI (Cyber Threat Tntelligence)</a></li>
       <li><a href="#3-types-de-cyber-threat-intelligence">Types de Cyber Threat Intelligence</a></li>
       <li><a href="#4-les-indicateurs-de-compromissions">Les indicateurs de compromissions</a></li>
-	  <li><a href="#5-mieux-gérer-ses-indicateurs-de-compromissions">Mieux gérer ses indicateurs de compromissions</a></li>
+    <li><a href="#5-mieux-gérer-ses-indicateurs-de-compromissions">Mieux gérer ses indicateurs de compromissions</a></li>
   </ol>
 </details>
 
 <div align="center">
-<h2>1. Introduction</h2>
+<h2>1. Préambule</h2>
 
 <p>Le renseignement de base existe depuis de nombreuses années mais depuis l'évolution et la prolifération de la menace cyber aux alentours des années 2000, la notion d'intelligence du renseignement cyber s'est particulièrement développé, nommée Cyber Threat Intelligence (CTI).</p></br></br>
 
 <div align="center">
-<h2>2. Le principe du CTI (Cyber Threat Intelligence)</h2>
+<h2>2. Les principes de la CTI (Cyber Threat Tntelligence)</h2>
 
-<p>Le principe du CTI est de collecter et d'analyser les informations existant autour d'une menace ou d'un adversaire.</br>
-
-Elle permet, entre autres, d'identifier et d'analyser des cybers menaces.</br>
-
-Elle permet de définir les indicateurs, les techniques d'attaque utilisées, les groupes d'attaquants, les outils utilisés...</br>
-
+<p>Le principe du CTI est de recueillir et d'analyser l'information existante autour d'une menace ou d'un adversaire, cela permet notamment l'identification et l'analyse des cybers menaces.</br>
+Il permet ainsi de définir les indicateurs, les techniques d'attaque utilisées, les groupes d'attaquants, ainsi que les outils utilisés.</br>
 Ce profiling permet de mieux se défendre et d'anticiper au mieux les différents incidents en permettant une détection aux prémices d'une attaque d'envergure (APT).</br>  
-
 En effet, le CTI, c'est également déjouer des attaques et récupérer un maximum de renseignements sur ces dits attaquants.</br>
-
 Associé à cela, la mise en place de mesures préventives, de détection et de réponse grâce à la connaissance acquise.</br> 
-
 Ces deux notions permettent d'obtenir une politique de CTI (association entre la collecte et la reconnaissance, et la mise en place de mesures préventives de détection et de réponse).</br>
-
 On pourrait résumer le principe de la CTI par, mieux connaitre pour mieux se défendre et anticiper.</br>
-
 </p></br></br>
 
 <div align="center">
