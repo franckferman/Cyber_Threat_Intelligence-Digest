@@ -2,7 +2,7 @@
 
 <div align="center">
   <a href="https://github.com/franckferman/Cyber_Threat_Intelligence-Digest">
-    <img src="https://raw.githubusercontent.com/franckferman/Cyber_Threat_Intelligence-Digest/main/assets/img/logo.png" alt="Cyber_Threat_Intelligence-Digest" width="200" height="200">
+    <img src="https://raw.githubusercontent.com/franckferman/Cyber_Threat_Intelligence-Digest/main/img/logo.png" alt="Cyber_Threat_Intelligence-Digest" width="200" height="200">
   </a>
 
 <h3 align="center">Cyber Threat Intelligence Digest</h3>
@@ -17,8 +17,8 @@
 <details>
   <summary>Table des matières</summary>
   <ol>
-    <li><a href="#1-introduction">Préambule</a></li>
-    <li><a href="#2-principes">Les principes de la CTI (Cyber Threat Tntelligence)</a></li>
+    <li><a href="#1-préambule">Préambule</a></li>
+    <li><a href="#2-le-principe-de-la-cti-cyber-threat-tntelligence">Le principe de la CTI (Cyber Threat Tntelligence)</a></li>
       <li><a href="#3-types-de-cyber-threat-intelligence">Types de Cyber Threat Intelligence</a></li>
       <li><a href="#4-les-indicateurs-de-compromissions">Les indicateurs de compromissions</a></li>
     <li><a href="#5-mieux-gérer-ses-indicateurs-de-compromissions">Mieux gérer ses indicateurs de compromissions</a></li>
