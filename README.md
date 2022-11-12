@@ -35,17 +35,13 @@ C'est à partir du 19e siècle que le terme de renseignement apparaît comme « 
   
 Mais depuis l'évolution et la prolifération des menaces Cyber (déstabilisation, espionnage, sabotage...) aux alentours des années 2000, une nouvelle notion est née et s'est particulièrement développé, celle d'intelligence du renseignement Cyber, justifiant la naissance de la notion de Cyber Threat Intelligence (CTI).</p>
 
+<br><br>
+
 <div align="center">
 <h2>2. Le principe de la Cyber Threat Intelligence (CTI)</h2>
+</div>
 
-<p>Le principe du CTI est de recueillir et d'analyser l'information existante autour d'une menace ou d'un adversaire, cela permet notamment l'identification et l'analyse des cybers menaces.</br>
-Il permet ainsi de définir les indicateurs, les techniques d'attaque utilisées, les groupes d'attaquants, ainsi que les outils utilisés.</br>
-Ce profiling permet de mieux se défendre et d'anticiper au mieux les différents incidents en permettant une détection aux prémices d'une attaque d'envergure (APT).</br>  
-En effet, le CTI, c'est également déjouer des attaques et récupérer un maximum de renseignements sur ces dits attaquants.</br>
-Associé à cela, la mise en place de mesures préventives, de détection et de réponse grâce à la connaissance acquise.</br> 
-Ces deux notions permettent d'obtenir une politique de CTI (association entre la collecte et la reconnaissance, et la mise en place de mesures préventives de détection et de réponse).</br>
-On pourrait résumer le principe de la CTI par, mieux connaitre pour mieux se défendre et anticiper.</br>
-</p></br></br>
+aaaaaa
 
 <div align="center">
 <h2>3. Types de Cyber Threat Intelligence</h2>
