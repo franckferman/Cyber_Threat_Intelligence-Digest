@@ -2,7 +2,7 @@
 
 <div align="center">
   <a href="https://github.com/franckferman/Cyber_Threat_Intelligence-Digest">
-    <img src="https://raw.githubusercontent.com/franckferman/Cyber_Threat_Intelligence-Digest/main/img/logo.png" alt="Cyber_Threat_Intelligence-Digest" width="200" height="200">
+    <img src="https://raw.githubusercontent.com/franckferman/Cyber_Threat_Intelligence-Digest/main/assets/img/logo.png" alt="Cyber_Threat_Intelligence-Digest" width="200" height="200">
   </a>
 
 <h3 align="center">Cyber Threat Intelligence Digest</h3>
