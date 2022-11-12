@@ -8,9 +8,7 @@
 <h3 align="center">Cyber Threat Intelligence Digest</h3>
 
   <p align="center">
-  Introduction à la Cyber Threat Tntelligence.  
-  <br/>
-  <br/>
+  Introduction à la Cyber Threat Tntelligence.
   </p>
 </div>
 
