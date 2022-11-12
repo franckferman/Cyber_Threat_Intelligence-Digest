@@ -59,56 +59,6 @@ La CTI pourrait être résumée par le fait qu'elle vise à mieux connaître les
 <h2>3. Les différents types de la Cyber Threat Tntelligence</h2>
 </div>
 
-<p>Il existe plusieurs types (catégories) de CTI.</br>
-
-Celles-ci sont essentiellement regroupées en quatre blocs.</br>
-
-- Sratégique :</br> 
-
-Le but est d'obtenir des renseignements sur les grandes tendances actuelles : quel est le groupe particulièrement virulent du moment ? Quel impact financier ce groupe a eu auprès d'entreprises ? Différentes informations sur les risques liés à un malware...</br>
-
-Ces informations seront essentiellement destinées à l'exécutif — management), pour mesurer l'évolution de la menace et des risques, permettant de mieux anticiper les stratégies à adopter.</br>
-
-Ce sont des informations de haut niveau, qui sont dédiées à un usage sur le long terme.</br>
-
-- Tactique :</br>
-
-Le but est d'obtenir des renseignements sur les techniques d'attaque, cela rassemble tout ce qui est utilisé par les attaquants pour récupérer des informations et attaquer — pénétrer votre infrastructure.</br>
-
-Cela peut être les outils utilisés, leurs habitudes, les méthodes utilisées...</br>
-
-Ces informations seront essentiellement destinées au SOC Manager — à l'intégrateur SIEM), permettant d'affiner les méthodes de détection et mettre à jour vos infrastructures.</br>
-
-Ce sont des informations de bas niveau, qui sont dédiées à un usage sur le long terme.</br>
-
-- Opérationnelle :</br>
-
-Le but est d'obtenir des renseignements sur les attaques à venir.</br>
-
-Cela passe le plus souvent par des veilles sur Internet, sur des forums de hacking, sur le DarkWeb, les commerces illégaux sur le DarkWeb, des leaks de credentials.</br>
-
-Il s'agit en quelque sorte d'OSINT, le but étant en quelque sorte de produire du renseignement permettant d'identifier les risques en amont.</br>
-
-Ce type est souvent géré par le RSSI / CERT (Computer Emergency Response Team), pour permettre essentiellement d'évaluer la capacité d'une organisation à se défendre contre de futures menaces.</br>
-
-Ce sont des informations de haut niveau, qui sont dédiées à un usage sur le court terme.</br>
-
-- Technique :</br>
-
-Le but est d'obtenir des renseignements sur les indicateurs de compromissions.</br>
-
-Prenons l'exemple d'un malware qui pénètre un système, le renseignement technique va avoir pour but de récolter des informations telles que : quel C2 (command and control) le malware a-t-il a contacté ? Quelle est la ou les signatures associées à celui-ci ?</br>
-
-À distinguer et à ne pas confondre avec la tactique qui va plus d'avantage se concentrer sur la comphresion de quelle vulnérabilité a été exploité.</br>
-
-La tactique se renseigne sur les méthodes et outils utilisées, alors que la technique va davantage se concentrer sur les données et traces laissées permettant d'identifier le ou la personne — le ou les groupes à l'origine de l'attaque.</br>
-
-Ce type est souvent géré par le SOC / CSIRT (Computer emergency response team), pour permettre de mieux identifier les indicateurs de compromissions.</br>
-
-Ce sont des informations de bas niveau, qui sont dédiées à un usage sur le court terme.</br>
-
-</p></br></br>
-
 <div align="center">
 <h2>4. Les indicateurs de compromissions</h2>
 
