@@ -12,8 +12,6 @@
   </p>
 </div>
 
-<br>
-
 <details>
   <summary>Table des matières</summary>
   <ol>
@@ -24,8 +22,6 @@
     <li><a href="#5-mieux-gérer-ses-indicateurs-de-compromissions">Mieux gérer ses indicateurs de compromissions</a></li>
   </ol>
 </details>
-
-<br>
 
 <div align="center">
 <h2>1. Préambule</h2>
