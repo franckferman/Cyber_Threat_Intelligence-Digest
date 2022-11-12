@@ -35,7 +35,7 @@ C'est à partir du 19e siècle que le terme de renseignement apparaît comme « 
   
 Mais depuis l'évolution et la prolifération des menaces Cyber (déstabilisation, espionnage, sabotage...) aux alentours des années 2000, une nouvelle notion est née et s'est particulièrement développé, celle d'intelligence du renseignement Cyber, justifiant la naissance de la notion de Cyber Threat Intelligence (CTI).</p>
 
-<br><br>
+<br>
 
 <div align="center">
 <h2>2. Le principe de la Cyber Threat Intelligence (CTI)</h2>
