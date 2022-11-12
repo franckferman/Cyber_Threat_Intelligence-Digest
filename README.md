@@ -25,6 +25,7 @@
 
 <div align="center">
 <h2>1. Préambule</h2>
+</div>
 
 <p>Le principe fondamental de renseignement existe depuis de nombreuses décennies. Historiquement, la notion de renseignement était déjà employé pendant l'Antiquité et au Moyen Âge — aussi bien au sein du Moyen-Orient (Mésopotamie, Égypte, Perse...), qu'en Extrême-Orient (Chine, Inde...) et en Europe (Carthage, Rome, Grèce). 
   
