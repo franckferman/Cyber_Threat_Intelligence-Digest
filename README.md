@@ -34,7 +34,7 @@ Il existe par ailleurs de très bons exemples historiques : dans l’Ancien Test
   
 C'est à partir du 19e siècle que le terme de renseignement apparaît comme « information, plus ou moins difficile à obtenir, concernant l'ennemi », puis vers 1920 apparaît d'autres principes et expressions, à l'instar de celui de « service de recherche des renseignements » désignant les organismes étatiques consacrés à cette activité. Les services de renseignements avaient notamment pour mission de collecter, d'analyser et de traiter des informations afin de fournir aux pouvoirs publics un appui dans la prise de décision.
   
-Depuis l'évolution et la prolifération des menaces Cyber (déstabilisation, espionnage, sabotage...) aux alentours des années 2000, la notion d'intelligence du renseignement Cyber s'est particulièrement développé, d'où la naissance de la notion de Cyber Threat Intelligence (CTI).</p>
+Mais depuis l'évolution et la prolifération des menaces Cyber (déstabilisation, espionnage, sabotage...) aux alentours des années 2000, une nouvelle notion est née et s'est particulièrement développé, celle d'intelligence du renseignement Cyber, justifiant la naissance de la notion de Cyber Threat Intelligence (CTI).</p>
 
 <div align="center">
 <h2>2. Les principes de la CTI (Cyber Threat Tntelligence)</h2>
