@@ -229,4 +229,4 @@ En conséquence, un agent envoie la signature de l'information sur VirusTotal.
 
 Les répercutions sont désastreuses. En effet, sur VirusTotal (et d'autres plateformes), il y a une fonction de « monitoring », permettant de surveiller la liste des émissions présentées sur la plateforme. 
 
-L'attaquant, qui était en train de surveiller les soumissions en cours pour la signature de son malware, va s'apercevoir que celui-ci vient d'être analysé. Par conséquent, cela donne l'alerte à l'attaquant, qui va tout faire pour disparaitre en détruisant le plus de trace possible.
+L'attaquant, qui était en train de surveiller les soumissions en cours pour la signature de son malware, va s'apercevoir que celui-ci vient d'être analysé. Par conséquent, cela donne l'alerte à l'attaquant, qui va tout faire pour disparaitre en détruisant le plus de trace possible.</p>
