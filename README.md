@@ -8,16 +8,16 @@
 <h3 align="center">Cyber Threat Intelligence Digest</h3>
 
   <p align="center">
-  Introduction à la Cyber Threat Tntelligence.
+  Introduction à la Cyber Threat Intelligence.
   </p>
 </div>
 
 <details>
   <summary>Table des matières</summary>
   <ol>
-    <li><a href="#1-préambule">Préambule</a></li>
-    <li><a href="#2-le-principe-de-la-cyber-threat-intelligence-cti">Le principe de la Cyber Threat Tntelligence (CTI)</a></li>
-      <li><a href="#3-types-de-cyber-threat-intelligence">Types de Cyber Threat Intelligence</a></li>
+    <li><a href="#1-pr%C3%A9ambule">Préambule</a></li>
+    <li><a href="#2-le-principe-de-la-cyber-threat-intelligence-cti-et-ses-moyens">Le principe de la Cyber Threat Intelligence (CTI) et ses moyens</a></li>
+      <li><a href="#3-les-diff%C3%A9rents-types-de-cyber-threat-intelligence">Les différents types de Cyber Threat Intelligence</a></li>
       <li><a href="#4-les-indicateurs-de-compromissions">Les indicateurs de compromissions</a></li>
     <li><a href="#5-mieux-gérer-ses-indicateurs-de-compromissions">Mieux gérer ses indicateurs de compromissions</a></li>
   </ol>
@@ -56,10 +56,10 @@ La CTI pourrait être résumée par le fait qu'elle vise à mieux connaître les
 <br>
 
 <div align="center">
-<h2>3. Les différents types de la Cyber Threat Tntelligence</h2>
+<h2>3. Les différents types de Cyber Threat Intelligence</h2>
 </div>
 
-<p>Les différents types de Cyber Threat Tntelligence sont essentiellement regroupées en quatre blocs.
+<p>Les différents types de Cyber Threat Intelligence sont essentiellement regroupées en quatre blocs.
 
 - Tactique :
 
@@ -105,24 +105,21 @@ Ce sont des informations de haut niveau, dédiées à un usage sur le long terme
 
 <div align="center">
 <h2>4. Les indicateurs de compromissions</h2>
+</div>
 
-<p>Il y a énormément d'indicateurs de compromissions qui se baladent dans la nature.</br>
+<p>Un indicateur de compromission est une donnée qui permet de détecter une activité anormale et potentiellement malveillante sur un réseau ou un système. De nombreux indicateurs de compromissions se baladent dans la nature et peuvent se présenter sous de nombreuses formes, cela peut notamment inclure des éléments tels que des adresses IP, des noms de domaines, des règles YARA, des hashes (md5, sha1...) de fichiers, etc.
 
-Il faut (dans un premier temps) avoir une méthode correcte pour pouvoir les récupérer, par la suite (encore plus important) il faudra une méthode correcte pour définir la façon de les gérer.</br>
+Compte tenu de l'abondance des informations, il est nécessaire en un premier temps de disposer d'une méthode correcte pour pouvoir les récupérer. Ensuite, plus important encore, il est nécessaire de disposer d'une méthode appropriée pour définir la manière de les gérer.
 
-Typiquement, c'est bien beau de récolter une base de 10 millions d'indicateurs, mais avez-vous les moyens pour les gérer, les maintenir et les exploiter ?</br>
+Trop d'information tue l'information. Par exemple, si on ne dispose pas des moyens nécessaires pour gérer, maintenir et exploiter une base de données de 10 millions d'indicateurs, aussi monumentale puisse-t-elle être, cette collecte n'a aucun intérêt.
 
-Il existe de nombreuses formes d'indicateurs, des règles YARA, des URLs, des adresses IPs, des hashs (md5, sha1...) et bien d'autres.</br>
+C'est une erreur de vouloir récupérer trop d'indicateurs, pensant que cela apportera nécessairement une protection accrue. La chose la plus importante est d'être en mesure de recueillir intelligemment et de vous poser les bonnes questions.
 
-Il s'agit probablement d'une erreur de vouloir récupérer trop d'indicateurs, en pensant que cela permettra de mieux se protéger.</br>
+Nous devons veiller à ce qu'il soit possible d'exploiter tous les indicateurs. 
 
-Le plus important est d'avoir la capacité de collecter de manière intelligente et se poser les bonnes questions.</br>
+Votre EDR est-il capable de gérer des signatures SHA-1 ? Si tel est le cas, il pourrait être intéressant de récupérer de nombreuses signatures, sans quoi cela n'aurait quasiment aucune utilité.</p>
 
-Typiquement, s'assurer que tous les indicateurs pourront être exploités.</br>
-
-Est-ce que votre EDR remonte des signatures de type SHA-1 ? Si oui, il peut, dans ce cas, être intéressant de récupérer de nombreuses signatures de type SHA-1, autrement, cela n'a quasiment aucune utilité.</br>
-
-</p></br></br>
+<br>
 
 <div align="center">
 <h2>5. Mieux gérer ses indicateurs de compromissions</h2>
