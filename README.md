@@ -41,7 +41,7 @@ Mais depuis l'évolution et la prolifération des menaces Cyber (déstabilisatio
 <h2>2. Le principe de la Cyber Threat Intelligence (CTI) et ses moyens</h2>
 </div>
 
-La CTI vise à collecter et à analyser les informations existant sur une menace ou un adversaire, notamment en dressant un portrait des attaquants ou en mettant en exergue des tendances (secteurs d'activités touchés, méthode utilisée, etc.), ce qui permettra de mieux identifier et analyser les cybermenaces.
+<p>La CTI vise à collecter et à analyser les informations existant sur une menace ou un adversaire, notamment en dressant un portrait des attaquants ou en mettant en exergue des tendances (secteurs d'activités touchés, méthode utilisée, etc.), ce qui permettra de mieux identifier et analyser les cybermenaces.
 
 La CTI inclut le « renseignement d'origine sources ouvertes » (OSINT), le renseignement à travers des sources privés (notamment sur des groupes Telegram, des sections privées de forums, des groupes Discord...), le renseignement humain et l'ingénierie sociale (Social Engineering), le renseignement technique, les fichiers journaux (logs), les données acquises « judiciairement » ou le renseignement sur le trafic Internet (à l'échelle du fournisseur) et les données dérivées du Dark Web.
 
@@ -51,13 +51,15 @@ En effet, la CTI vise également à se préparer aux attaques en amont, en récu
 
 Ces deux concepts (l'association de la collecte et la reconnaissance, avec la mise en place de mesures préventives de détection et de réponse) permettent d'obtenir une stratégie de CTI.
 
-La CTI pourrait être résumée par le fait qu'elle vise à mieux connaître les menaces pour mieux se défendre et anticiper.
+La CTI pourrait être résumée par le fait qu'elle vise à mieux connaître les menaces pour mieux se défendre et anticiper.</p>
 
 <br>
 
 <div align="center">
 <h2>3. Les différents types de la Cyber Threat Tntelligence</h2>
 </div>
+
+aaa
 
 <div align="center">
 <h2>4. Les indicateurs de compromissions</h2>
