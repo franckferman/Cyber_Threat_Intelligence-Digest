@@ -123,97 +123,110 @@ Votre EDR est-il capable de gérer des signatures SHA-1 ? Si tel est le cas, il 
 
 <div align="center">
 <h2>5. Mieux gérer ses indicateurs de compromissions</h2>
+</div>
 
-<p>Pour mieux gérer ses données (indicateurs), il faut également être capables de les classifier.</br>
+<p>Un indicateur de compromission est une donnée qui permet de détecter une activité anormale et potentiellement malveillante sur un réseau ou un système. De nombreux indicateurs de compromissions se baladent dans la nature et peuvent se présenter sous de nombreuses formes, cela peut notamment inclure des éléments tels que des adresses IP, des noms de domaines, des règles YARA, des hashes (md5, sha1...) de fichiers, etc.
 
-Voici quelques exemples d'éléments essentiels pour la classification de celles-ci.</br>
+Compte tenu de l'abondance des informations, il est nécessaire en un premier temps de disposer d'une méthode correcte pour pouvoir les récupérer. Ensuite, plus important encore, il est nécessaire de disposer d'une méthode appropriée pour définir la manière de les gérer.
 
-- Le scoring :</br>
+Trop d'information tue l'information. Par exemple, si on ne dispose pas des moyens nécessaires pour gérer, maintenir et exploiter une base de données de 10 millions d'indicateurs, aussi monumentale puisse-t-elle être, cette collecte n'a aucun intérêt.
 
-Il existe trois types de sources.</br>
+C'est une erreur de vouloir récupérer trop d'indicateurs, pensant que cela apportera nécessairement une protection accrue. La chose la plus importante est d'être en mesure de recueillir intelligemment et de vous poser les bonnes questions.
 
-- Les sources ouvertes : il s'agit des éléments récupérés sur Internet.</br>
+Nous devons veiller à ce qu'il soit possible d'exploiter tous les indicateurs. 
 
-Avec des sites tels que abuse.ch, AbuseIPDB, VirusTotal...</br>
+Votre EDR est-il capable de gérer des signatures SHA-1 ? Si tel est le cas, il pourrait être intéressant de récupérer de nombreuses signatures, sans quoi cela n'aurait quasiment aucune utilité.
 
-Mais également des données récupérées après des veilles réalisées sur des sites telles que Twitter, LinkedIn, des forums sur le clearWeb mais également sur DarkWeb (ces éléments peuvent être une véritable mine d'or).</br>
+- Mieux gérer ses indicateurs de compromissions
 
-- Les sources privées :</br>
+Pour mieux gérer ses données (indicateurs), il faut également être capables de les classifier. La classification permet de regrouper des éléments qui présentent des caractéristiques similaires. Elle permet ainsi de mettre en valeur certains éléments par rapport à d’autres.
 
-Il s'agit le plus souvent des éditeurs de logiciels de CTI.</br>
+Voici quelques exemples d'éléments essentiels pour la classification de celles-ci.
+  
+- Le Scoring :
 
-Le plus gros avantage réside dans le fait qu'il s'agit de données bien quantifiées et particulièrement fiables.</br>
+On distingue trois catégories de sources.
 
-- Les sources internes :</br> 
+- Les sources ouvertes : 
 
-Il s'agit des données récupérées en interne, par le biais de nos infrastructures.</br>
+Ce sont des éléments récupérés sur Internet, provenant le plus souvent de sources telles que abuse.ch, AbuseIPDB, blocklist.de, VirusTotal... Mais également de données récupérées à la suite de veilles réalisées (Twitter, LinkedIn, forums et blogs sur Internet ainsi que sur le DarkWeb), ces derniers éléments peuvent être une véritable mine d'or.
 
-Il s'agit bien évidemment de la donnée la plus fiable de ces trois types.</br>
+- Les sources privées :
 
-Si nous avons subi une compromission avec une signature spécifique, il n'y a aucun doute sur cet indicateur.</br>
+Il s'agit le plus souvent d'informations provenant des éditeurs de logiciels de CTI. 
 
-Bien évidemment, chacun de ces types apporte des avantages et des inconvénients, typiquement, la source publique apporte bien plus d'éléments, mais bien moins fiables que les autres types.</br>
+Le plus gros avantage réside dans le fait qu'il s'agit de données bien quantifiées et particulièrement fiables.
 
-C'est pour cette raison qu'il est intéressant de mettre un système de scale en place.</br>
+- Les sources internes :
 
-Je récupère les informations de la source ouvertures mais ne les considères pas comme fiable.</br>
+Il s'agit des données récupérées en interne, par le biais de nos infrastructures.
 
-Si je récupère une information provenant de ma source privée, qui entre en corrélation avec celle de ma source publique, cela fait au total un indicateur détecté par deux sources.</br>
+Il s'agit de données obtenues en interne, par le biais de vos propres infrastructures et outils.
 
-Je peux donc considérer mon indacteur comme relativement fiable et le placer au sein de mon SIEM (Security Information & Event Management).</br>
+De toute évidence, ce sont les données les plus fiables de ces trois types. Si, à la suite d'une compromission de l'un de vos systèmes, vous avez été en mesure de récupérer une signature spécifique relatif à cette attaque, il n'y aura absolument aucun doute sur cet indicateur.
 
-- La durée de vie des indicateurs :</br>
+Chacun de ces types possède leurs avantages et leurs inconvénients. Typiquement, la source publique fournit beaucoup plus d'éléments, mais moins fiable que les autres types.
 
-Il est important de ne pas garder éternellement les indicateurs dans sa base pour éviter de complexifier celle-ci (pas seulement, cf. Le statut des indicateurs).</br>
+Il est nécessaire de mettre un système d'« échelle » (« scale ») en place.
+  
+Par exemple, je récupère les informations de sources ouvertes, mais ne les considère pas comme fiables dans un premier temps. Puis, après récupération d'une information provenant de ma source privée, si cette dernière entre en corrélation avec celle de ma source publique, cela fera un indicateur détecté par deux sources.
 
-La durée de vie des indicateurs dépend de nombreux facteurs, dont la provenance de la source.</br>
+Une source peut être combinée à d'autres, ce qui peut aider à valider des éléments. Par exemple, une source primaire peut être combinée à une source secondaire pour valider un élément.
 
-Provenant d'un source ouvert : cela dépend de la source et sa fiabilité mais il s'agit généralement d'une durée de vie des indicateurs assez courts.</br>
+Je pourrais donc considérer mon indicateur comme fiable, et le placer au sein de mon SIEM (Security Information & Event Management).
+  
+- La durée de vie des indicateurs :
 
-Provenant d'un source privée : la durée de vie des indicateurs est généralement gérée automatiquement par les éditeurs de logiciels de CTI.</br>
+Il est nécessaire de ne pas garder éternellement les indicateurs dans une base, afin d'éviter la complexification de celle-ci.
 
-Provenant de sources internes : cela dépend beaucoup du type d'indicateur, une signature par exemple peut facilement être changée et il ne faut donc pas trop se concentrer dessus.</br>
+De nombreux facteurs définissent la durée de vie des indicateurs (notamment la provenance de la source).
 
-Une fois que la signature a déjà été flag par absolument tous les antivirus, est-ce vraiment nécessaire de la conserver dans sa base.</br>
+- Provenant d'une source ouverte : elle dépend de la source (notamment de sa fiabilité), mais elle correspond généralement à une durée de vie relativement courte.
 
-En revanche, garder des adresses IP où des noms de domaines par exemple me paraît bien plus pertinent, étant des données plus difficiles à obtenir (du moins, comparer à une simple signature).</br>
+- Provenant d'une source privée : elle dépend généralement des éditeurs de logiciels de CTI (elle est gérée automatiquement).
 
-- Le statut des indicateurs :</br>
+- Provenant d'une source interne : elle dépend beaucoup du type d'indicateur, typiquement, une signature pourrait facilement « évoluée » (être dépassée très rapidement), et il ne faut par conséquent donc pas trop se concentrer sur cette donnée dans un contexte moyen à long terme.
 
-C'est un facteur partiellement lié à la durée de vie des indicateurs.</br>
+Une fois qu'une signature a déjà été enregistrée et détectée comme malicieuse par absolument tous les antivirus du marché, est-ce vraiment nécessaire de la conserver dans sa base. Antithétiquement, les adresses IP et noms de domaines sont des données bien plus pertinentes dans un contexte moyen à long terme, de par leurs plus grande complexité à « évoluée » (du moins, comparer à une simple signature). À titre de comparaison, une nouvelle signature est bien plus facile à obtenir qu'un nom de domaine ou une adresse IP.
+  
+- Le statut des indicateurs :
 
-- Le statut actif (indicateur actif) : il s'agit de menaces actuelles.</br>
+Il s'agit d'un facteur qui dépend en partie de la durée de vie des indicateurs.
 
-- Le status whitelist : j'ai entendu l'anecdote d'une entreprise ayant eu un blocage du logiciel Teams au sein de toute l'entreprise pour une durée de 3h. Ce qui peut être catastrophique pour certaines grosses entreprises dépendantes de cet outil. A l'origine du blocage ? Une veille adresse IP qui avait été définis comme malveillante, sauf qu'avec les années, celle-ci s'est retrouvé attribué à des serveurs Microsoft. Il est donc important de tenir à jour sa base et bien gérer ses délais d'expiration.</br>
+- Le statut actif : ce sont des menaces actuelles.
 
-- Le statut à définir : si l'indicateur n'est ni actif, ni dans la whitelist, il faut prendre le temps de vérifier ces indicateurs.</br>
+- Le status whitelist (liste blanche) : Pour l'anecdote, une entreprise a déjà subi le blocage d'un logiciel de communication tiers pendant de nombreuses heures au sein de toute l'infrastructure. Étant un logiciel utilisé régulièrement au sein de cette structure, les conséquences étaient désastreuses (relatif à la dépendance de l'entreprise à cet outil). À l'origine du blocage : une très vieille adresse IP qui avait été définis comme malveillante il y a de nombreuses années, mais avec le temps, celle-ci s'est retrouvée réattribué à des serveurs de la société éditrice du logiciel tiers en question. D'où l'importance de tenir à jour sa base, et bien gérer ses délais d'expiration.
 
-- La confidentialité :</br>
+- Le statut « à définir » : si l'indicateur n'est ni actif, ni sur liste blanche (whitelist), il est nécessaire de prendre le temps de vérifier et définir ces indicateurs.
+  
+- La confidentialité des indicateurs :
 
-Il s'agit d'un facteur très important et déterminant.</br>
+Ce facteur est déterminant. Il existe trois niveaux de confidentialité, définis par ce que l'on appelle le TLP (Traffic Light Protocol).
 
-Il existe trois niveaux de TLP.</br>
+Le TLP est un protocole de communication utilisé pour échanger des informations sensibles entre les organisations. Il permet de classifier les informations en fonction de leur niveau de sensibilité (notamment en associant l'information à une couleur), afin que les destinataires puissent prendre les mesures appropriées pour les protéger.
 
-Le TLP est un protocole qui oblige toute personne qui transmet une information à l’associer à une couleur selon un code couleur. Cette couleur indique dans quelle mesure l’information peut ensuite être diffusée. Si la personne qui reçoit l’information estime que celle-ci doit pouvoir être diffusée plus largement, elle doit au préalable demander l'accord de l’expéditeur.</br>
+Le code couleur indique la mesure dans laquelle les renseignements peuvent alors être divulgués. Si la personne qui reçoit l'information estime qu'elle devrait être plus largement disponible, elle doit d'abord obtenir le consentement de l'expéditeur (mais ne doit jamais prendre d'initiatives personnelles sans respect du TLP).
 
-Il existe par exemple :</br>
+- Les couleurs et leur signification :
 
-- Le TLP Red : le code le plus restrictif. Il ne doit pas être divulgué et est réservé aux participants (ou au service).</br>
+- Le TLP Red : il s'agit du code le plus restrictif. Cela veut dire que l'information ne doit pas être divulguée, et est réservée aux participants (ou au service).
 
-- Le TLP Amber : divulgation limitée, restreinte à l'organisation (à l'entreprise) des participants.</br>
+- Le TLP Amber : cela correspond à un niveau de divulgation limitée, restreinte à l'entreprise.
 
-- Le TLP Green : Réservé à un groupe, une communauté (ou entre entreprises de confiance par exemple)...</br>
+- Le TLP Green : l'information est réservée à un groupe, une communauté, ou transversale entre entreprises partenaires uniquement, mais jamais via des canaux accessibles au public.
 
-- Le TLP White : Aucune restriction.</br>
+- Le TLP White : il s'agit du code le moins restrictif. Aucune restriction n'est imposée et l'information peut être divulguée librement.
 
-En quoi c'est important ?</br>
+Les restrictions définies par le TLP doivent impérativement être respectées.
 
-Voici un exemple concret, tiré d'une histoire réelle vécu par M. LEROUX Julien, ancien responsable au sein de l'ANSSI.</br>
+Pour l'anecdote, M. Julien LEROUX (ancien responsable au sein de l'ANSSI) a subi et observé personnellement les conséquences d'un TLP non respecté : 
 
-Votre organisation subit actuellement une attaque. Le TLP a mal été flagé, ce qui a comme conséquence qu'une des agents envoie la signature du malware sur VirusTotal.</br>
+Son organisme fait présentement l'objet d'attaques. 
 
-En quoi est-ce grave ? Sur VirusTotal, il y a une fonction de monitoring, permettant de surveiller la liste des programmes soumis sur la plateforme.</br>
+Le TLP d'une information relatif à l'attaque en cours a mal été assigné. 
 
-L'attaquant qui était en train de monitorer les soumissions en cours pour son malware va s'apercevoir que celui-ci vient d'être analysé et va par conséquent tout faire pour déguerpir le plus vite possible (en laissant par ailleurs le moins de traces possible).</br>
+En conséquence, un agent envoie la signature de l'information sur VirusTotal. 
 
-</p></br></br>
+Les répercutions sont désastreuses. En effet, sur VirusTotal (et d'autres plateformes), il y a une fonction de « monitoring », permettant de surveiller la liste des émissions présentées sur la plateforme. 
+
+L'attaquant, qui était en train de surveiller les soumissions en cours pour la signature de son malware, va s'apercevoir que celui-ci vient d'être analysé. Par conséquent, cela donne l'alerte à l'attaquant, qui va tout faire pour disparaitre en détruisant le plus de trace possible.
