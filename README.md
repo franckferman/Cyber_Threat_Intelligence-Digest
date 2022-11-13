@@ -59,7 +59,49 @@ La CTI pourrait être résumée par le fait qu'elle vise à mieux connaître les
 <h2>3. Les différents types de la Cyber Threat Tntelligence</h2>
 </div>
 
-aaa
+<p>Les différents types de Cyber Threat Tntelligence sont essentiellement regroupées en quatre blocs.
+
+- Tactique :
+
+Le but est d'obtenir des renseignements sur les techniques d'attaque, cela rassemble tout ce qui est utilisé par les attaquants pour récupérer des informations et attaquer votre infrastructure, cela inclut notamment les méthodes utilisées par les attaquants, leurs habitudes et les outils dont ils se servent.
+
+Les informations fournies ici seront principalement utilisées par le SOC Manager ou par l'intégrateur SIEM afin d'améliorer d'affiner les méthodes de détection et mettre à jour vos infrastructures.
+
+Ce sont des informations de bas niveau, dédiées à un usage sur le long terme.
+
+- Technique :
+
+L'objectif est de collecter des données sur les indicateurs de compromissions.
+
+Prenons l'exemple d'un malware qui s'introduit dans un système. L'objectif du renseignement technique sera la collecte de renseignements connexes, en un sens, associés à la compromission, par exemple : quelle infrastructure de « Commande et Contrôle » (C&C ou C²) le malware a-t-il a contacté ? Quelle est là, ou quelles sont les signatures qui y sont associées ?
+
+Le bloc technique ne doit pas être confondu avec le bloc tactique, puisque ce dernier se concentre davantage sur la compréhension de la vulnérabilité ayant été exploité. En effet, le bloc tactique se renseigne sur les méthodes et outils utilisées, alors qu'antithétiquement, le bloc technique se concentrera davantage sur les données et traces laissées permettant d'identifier le ou la personne — le ou les groupes à l'origine d'une attaque.
+
+Ce bloc est souvent géré par le SOC — CSIRT (Computer Emergency Response Team), afin de permettre une meilleure identification des indicateurs de compromissions.
+
+Ce sont des informations de bas niveau, dédiées à un usage sur le court terme.
+
+- Opérationnelle :
+
+L'objectif consiste à obtenir des informations sur les attaques futures.
+
+Cela passe habituellement par des veilles sur Internet, sur les forums (de hacking), sur le Dark Web (commerces illégaux, forums), notamment à la recherche de leaks de credentials.
+
+Il s'agit en quelque sorte d'OSINT, c'est-à-dire, en quelque sorte de produire du renseignement, permettant d'identifier les risques en amont.
+
+Ce bloc est souvent géré par le RSSI ou le CERT (Computer Emergency Response Team), pour permettre essentiellement d'évaluer la capacité d'une organisation à se défendre contre de futures menaces.
+
+Ce sont des informations de haut niveau, dédiées à un usage sur le court terme.
+
+- Sratégique :
+
+L'objectif consiste à obtenir de l'information sur les principales tendances actuelles, par exemple : quel groupe est particulièrement virulent ces derniers temps ? Quelles ont été les répercussions financières de l'attaque de la part de ce groupe pour les entreprises ? Divers renseignements au sujet des risques associés à un malware...
+
+Ces renseignements seront principalement utilisés par l'exécutif (management) pour mesurer l'évolution de la menace et des risques, ce qui permettra de mieux prévoir les stratégies à adopter.
+
+Ce sont des informations de haut niveau, dédiées à un usage sur le long terme.</p>
+
+<br>
 
 <div align="center">
 <h2>4. Les indicateurs de compromissions</h2>
