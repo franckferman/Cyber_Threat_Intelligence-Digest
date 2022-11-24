@@ -5,10 +5,10 @@
     <img src="https://raw.githubusercontent.com/franckferman/Cyber_Threat_Intelligence-Digest/main/assets/img/logo.png" alt="Cyber_Threat_Intelligence-Digest" width="200" height="200">
   </a>
 
-<h3 align="center">Cyber Threat Intelligence Digest</h3>
+<h3 align="center">Cyber Threat Intelligence Digest — Introduction à la Cyber Threat Intelligence</h3>
 
   <p align="center">
-  Introduction à la Cyber Threat Intelligence.
+  Le concept de Cyber threat Intelligence (CTI) désigne la collecte et l'analyse d'informations sur les menaces et les risques en matière de cybersécurité. La CTI vise à fournir aux décideurs une vision globale des menaces et des risques en matière de cybersécurité.
   </p>
 </div>
 
@@ -27,13 +27,15 @@
 <h2>1. Préambule</h2>
 </div>
 
-<p>Le principe fondamental de renseignement existe depuis de nombreuses décennies. Historiquement, la notion de renseignement était déjà employé pendant l'Antiquité et au Moyen Âge — aussi bien au sein du Moyen-Orient (Mésopotamie, Égypte, Perse...), qu'en Extrême-Orient (Chine, Inde...) et en Europe (Carthage, Rome, Grèce). 
-  
+<p>Le principe fondamental de renseignement existe depuis de nombreuses décennies. 
+
+Historiquement, la notion de renseignement était déjà employé pendant l'Antiquité et au Moyen Âge — aussi bien au sein du Moyen-Orient (Mésopotamie, Égypte, Perse...), qu'en Extrême-Orient (Chine, Inde...) et en Europe (Carthage, Rome, Grèce). 
+
 Il existe par ailleurs de très bons exemples historiques : dans l’Ancien Testament et la Bible ; dans les récits d’Hérodote et ceux des historiens romains ; pendant les Croisades (pratiqué tant par les royaumes Chrétiens que Musulmans) ; pendant la guerre de Cent Ans (caractérisée par une pratique constante de conspirations, d'intrigues et de manœuvres secrètes entre les belligérants, pratiquées par des espions, des traîtres et des agents...) ; dans la péninsule ibérique lors de la Reconquista ; au Japon avec les ninjas (contrairement à la croyance commune, probablement dû à la confusion qu'ont les individus quand il s'agit de différencier Samouraï et Ninja, ces derniers n'étaient pas soumis au Bushidō, et pratiquaient, souvent en omettant volontairement toutes valeurs ou éthiques, de nombreuses missions d'espionnage, d'infiltration, de sabotage, d'assassinat...) ; ou encore dans les deux plus anciens traités de stratégie au monde (L’Art de la Guerre de Sun Tse et l’Arthasastra de Kautilya)...
-  
+
 C'est à partir du 19e siècle que le terme de renseignement apparaît comme « information, plus ou moins difficile à obtenir, concernant l'ennemi », puis vers 1920 apparaît d'autres principes et expressions, à l'instar de celui de « service de recherche des renseignements » désignant les organismes étatiques consacrés à cette activité. Les services de renseignements avaient notamment pour mission de collecter, d'analyser et de traiter des informations afin de fournir aux pouvoirs publics un appui dans la prise de décision.
-  
-Mais depuis l'évolution et la prolifération des menaces Cyber (déstabilisation, espionnage, sabotage...) aux alentours des années 2000, une nouvelle notion est née et s'est particulièrement développé, celle d'intelligence du renseignement Cyber, justifiant la naissance de la notion de Cyber Threat Intelligence (CTI).</p>
+
+Depuis l'évolution et la prolifération des menaces Cyber (déstabilisation, espionnage, sabotage...) aux alentours des années 2000, une nouvelle notion est née et s'est particulièrement développé, celle d'intelligence du renseignement Cyber, justifiant la naissance de la notion de Cyber Threat Intelligence (CTI).</p>
 
 <br>
 
@@ -43,13 +45,13 @@ Mais depuis l'évolution et la prolifération des menaces Cyber (déstabilisatio
 
 <p>La CTI vise à collecter et à analyser les informations existant sur une menace ou un adversaire, notamment en dressant un portrait des attaquants ou en mettant en exergue des tendances (secteurs d'activités touchés, méthode utilisée, etc.), ce qui permettra de mieux identifier et analyser les cybermenaces.
 
-La CTI inclut le « renseignement d'origine sources ouvertes » (OSINT), le renseignement à travers des sources privés (notamment sur des groupes Telegram, des sections privées de forums, des groupes Discord...), le renseignement humain et l'ingénierie sociale (Social Engineering), le renseignement technique, les fichiers journaux (logs), les données acquises « judiciairement » ou le renseignement sur le trafic Internet (à l'échelle du fournisseur) et les données dérivées du Dark Web.
+La CTI inclut le « renseignement d'origine sources ouvertes (OSINT) », le renseignement à travers des sources privés (notamment sur des groupes Telegram, des sections privées de forums, des groupes Discord...), le renseignement humain et l'ingénierie sociale (Social Engineering), le renseignement technique, les fichiers journaux (logs), les données acquises « judiciairement » ou le renseignement sur le trafic Internet (à l'échelle du fournisseur) et les données dérivées du Dark Web.
 
 Plus précisément, la CTI permet de définir les indicateurs d'attaque, les techniques utilisées, les groupes d'attaquants et les outils utilisés. Ce « profiling » permet de se défendre et anticiper au mieux les différents incidents, en permettant une détection aux prémices d'une attaque d'envergure (APT). 
 
 En effet, la CTI vise également à se préparer aux attaques en amont, en récupérant le plus d'informations possible sur ces attaquants. Couplé à cela, la mise en œuvre de mesures de prévention, de détection et de réponse par le biais des connaissances acquises.
 
-Ces deux concepts (l'association de la collecte et la reconnaissance, avec la mise en place de mesures préventives de détection et de réponse) permettent d'obtenir une stratégie de CTI.
+Ces deux concepts (l'association de la collecte et la reconnaissance, avec la mise en place de mesures préventives de détection et de réponse) permettent d'obtenir une stratégie.
 
 La CTI pourrait être résumée par le fait qu'elle vise à mieux connaître les menaces pour mieux se défendre et anticiper.</p>
 
@@ -65,7 +67,7 @@ La CTI pourrait être résumée par le fait qu'elle vise à mieux connaître les
 
 Le but est d'obtenir des renseignements sur les techniques d'attaque, cela rassemble tout ce qui est utilisé par les attaquants pour récupérer des informations et attaquer votre infrastructure, cela inclut notamment les méthodes utilisées par les attaquants, leurs habitudes et les outils dont ils se servent.
 
-Les informations fournies ici seront principalement utilisées par le SOC Manager ou par l'intégrateur SIEM afin d'améliorer d'affiner les méthodes de détection et mettre à jour vos infrastructures.
+Les informations fournies ici seront principalement utilisées par le SOC Manager ou par l'intégrateur SIEM afin d'améliorer — d'affiner les méthodes de détection et mettre à jour vos infrastructures.
 
 Ce sont des informations de bas niveau, dédiées à un usage sur le long terme.
 
@@ -89,11 +91,11 @@ Cela passe habituellement par des veilles sur Internet, sur les forums (de hacki
 
 Il s'agit en quelque sorte d'OSINT, c'est-à-dire, en quelque sorte de produire du renseignement, permettant d'identifier les risques en amont.
 
-Ce bloc est souvent géré par le RSSI ou le CERT (Computer Emergency Response Team), pour permettre essentiellement d'évaluer la capacité d'une organisation à se défendre contre de futures menaces.
+Ce bloc est souvent géré par le RSSI ou le CERT (Computer Emergency Response Team), essentiellement pour permettre d'évaluer la capacité d'une organisation à se défendre contre de futures menaces.
 
 Ce sont des informations de haut niveau, dédiées à un usage sur le court terme.
 
-- Sratégique :
+- Stratégique :
 
 L'objectif consiste à obtenir de l'information sur les principales tendances actuelles, par exemple : quel groupe est particulièrement virulent ces derniers temps ? Quelles ont été les répercussions financières de l'attaque de la part de ce groupe pour les entreprises ? Divers renseignements au sujet des risques associés à un malware...
 
